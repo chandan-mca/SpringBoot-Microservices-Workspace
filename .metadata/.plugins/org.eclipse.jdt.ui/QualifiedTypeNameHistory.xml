@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-    <fullyQualifiedTypeName name="in.ashokit.config.AppConfig"/>
-    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
@@ -21,7 +17,6 @@
     <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Example"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="in.ashokit.repo.ProductRepo"/>
     <fullyQualifiedTypeName name="in.ashokit.entity.Product"/>
     <fullyQualifiedTypeName name="jakarta.persistence.SequenceGenerator"/>
@@ -56,8 +51,13 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="in.ashokit.service.EmpService"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
-    <fullyQualifiedTypeName name="in.ashokit.service.ProductService"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.ProductService"/>
+    <fullyQualifiedTypeName name="in.ashokit.binding.Data"/>
+    <fullyQualifiedTypeName name="in.ashokit.binding.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.BodyInserters"/>
 </qualifiedTypeNameHistroy>
