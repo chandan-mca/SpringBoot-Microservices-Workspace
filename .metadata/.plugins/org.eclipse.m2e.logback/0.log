@@ -10231,3 +10231,556 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentri
 2025-12-10 09:12:09,980 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-12-10 09:12:09,992 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-12-10 09:12:10,001 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\27-Greet-API\src\test\resources
+2025-12-11 08:35:36,084 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-11 09:54:55,230 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:29-Circuit-Breaker-App:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\pom.xml.
+2025-12-11 09:55:00,910 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8.pom
+2025-12-11 09:55:00,953 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8.pom
+2025-12-11 09:55:02,793 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8.jar
+2025-12-11 09:55:02,878 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8.jar
+2025-12-11 09:55:08,584 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8-sources.jar
+2025-12-11 09:55:08,698 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.5.8/spring-boot-configuration-processor-3.5.8-sources.jar
+2025-12-11 09:55:08,737 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:3.5.8
+2025-12-11 09:55:08,999 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29-Circuit-Breaker-App/src/main/java
+2025-12-11 09:55:09,004 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/main/resources
+2025-12-11 09:55:09,028 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/main/resources
+2025-12-11 09:55:09,064 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29-Circuit-Breaker-App/src/test/java
+2025-12-11 09:55:09,067 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/test/resources
+2025-12-11 09:55:23,092 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 36 sec
+2025-12-11 09:55:23,098 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-12-11 09:55:24,023 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:29-Circuit-Breaker-App:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\pom.xml.
+2025-12-11 09:55:26,888 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29-Circuit-Breaker-App/src/main/java
+2025-12-11 09:55:26,890 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/main/resources
+2025-12-11 09:55:26,893 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/main/resources
+2025-12-11 09:55:26,894 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29-Circuit-Breaker-App/src/test/java
+2025-12-11 09:55:26,896 [Worker-12: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29-Circuit-Breaker-App/src/test/resources
+2025-12-11 09:55:29,011 [Worker-12: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
+2025-12-11 09:55:35,860 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:55:35,965 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:55:35,978 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:55:46,752 [Worker-18: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...\n\t\t\n\t\t### 2) Create Rest Controller with required methods\t\t\n\n\n\t\t<d... @51:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...\n\t\t\n\t\t### 2) Create Rest Controller with required methods\t\t\n\n\n\t\t<d... @51:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-11 09:55:48,781 [Worker-16: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...\n\t\t\n\t\t### 2) Create Rest Controller with required methods\t\t\n\n\n\t\t<d... @51:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...\n\t\t\n\t\t### 2) Create Rest Controller with required methods\t\t\n\n\n\t\t<d... @51:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-11 09:55:55,731 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:29-Circuit-Breaker-App:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\pom.xml.
+2025-12-11 09:55:56,453 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8.pom
+2025-12-11 09:55:56,596 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8.pom
+2025-12-11 09:55:56,673 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.pom
+2025-12-11 09:55:56,910 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.pom
+2025-12-11 09:55:57,890 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8.jar
+2025-12-11 09:55:58,242 [Worker-13: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8.jar
+2025-12-11 09:55:58,292 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar
+2025-12-11 09:55:58,988 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar
+2025-12-11 09:56:00,871 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:00,873 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:00,885 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:56:01,353 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8-sources.jar
+2025-12-11 09:56:01,400 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.5.8/spring-boot-starter-aop-3.5.8-sources.jar
+2025-12-11 09:56:01,422 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-aop:3.5.8
+2025-12-11 09:56:01,629 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25-sources.jar
+2025-12-11 09:56:02,033 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25-sources.jar
+2025-12-11 09:56:02,043 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.9.25
+2025-12-11 09:56:05,247 [Worker-17: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>\n\t\tl <d... @52:7) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>\n\t\tl <d... @52:7) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-11 09:56:06,586 [Worker-14: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>\n\t\tl <d... @52:7) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>\n\t\tl <d... @52:7) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-11 09:56:10,385 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:29-Circuit-Breaker-App:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\pom.xml.
+2025-12-11 09:56:13,371 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:13,378 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:13,409 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:56:15,601 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:56:15,683 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:15,691 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:56:37,395 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:56:37,428 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:37,442 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:56:52,956 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:56:52,966 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:56:52,976 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:57:40,719 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:57:40,751 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:57:40,764 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:58:20,048 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:58:20,058 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:58:20,071 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:58:55,233 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:58:55,245 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:58:55,254 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:59:39,228 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:59:39,236 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:59:39,261 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 09:59:45,801 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 09:59:45,813 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 09:59:45,824 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:00:58,139 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:00:58,158 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:00:58,167 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:01:38,173 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:01:38,195 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:01:38,208 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:03:03,205 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:03:03,212 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:03:03,220 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:03:05,342 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:03:05,370 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:03:05,389 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:03:09,904 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:03:09,912 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:03:09,919 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:09,565 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:09,576 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:09,600 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:10,707 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:10,721 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:10,748 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:27,215 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:27,235 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:27,240 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:28,430 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:28,497 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:28,505 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:42,510 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:42,527 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:42,536 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:43,927 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:43,954 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:43,961 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:04:46,133 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:04:46,138 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:04:46,143 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:05:23,204 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:05:23,209 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:05:23,214 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:05:24,797 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:05:24,818 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:05:24,836 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:05:25,906 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:05:25,913 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:05:25,920 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:06:18,419 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:06:18,456 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:06:18,467 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:06:32,246 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:06:32,255 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:06:32,260 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:06:34,245 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:06:34,253 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:06:34,279 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:06:35,481 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:06:35,500 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:06:35,522 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:07:04,295 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-11 10:07:04,313 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:07:04,317 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:07:10,695 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-11 10:07:10,702 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:07:10,711 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:08:34,046 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-11 10:08:34,079 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:08:34,090 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:08:38,099 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-11 10:08:38,118 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:08:38,125 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:08:40,353 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-11 10:08:40,388 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:08:40,395 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:09:29,913 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:09:29,964 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:09:29,973 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:09:32,109 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:09:32,116 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:09:32,136 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:09:33,202 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:09:33,217 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:09:33,222 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:14:04,448 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:14:04,450 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:14:04,459 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:17:31,116 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:17:31,128 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:17:31,152 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:18:12,676 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:18:12,698 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:18:12,704 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:18:14,907 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:18:14,916 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:18:14,926 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-11 10:39:09,911 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-11 10:39:09,924 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-11 10:39:09,932 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\29-Circuit-Breaker-App\src\test\resources
+2025-12-12 08:43:42,707 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-12-12 08:51:54,690 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:30-Secured-Rest-Api:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\pom.xml.
+2025-12-12 08:52:02,437 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30-Secured-Rest-Api/src/main/java
+2025-12-12 08:52:02,439 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/main/resources
+2025-12-12 08:52:02,452 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/main/resources
+2025-12-12 08:52:02,464 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30-Secured-Rest-Api/src/test/java
+2025-12-12 08:52:02,465 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/test/resources
+2025-12-12 08:52:03,172 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 18 sec
+2025-12-12 08:52:03,183 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-12-12 08:52:04,664 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:30-Secured-Rest-Api:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\pom.xml.
+2025-12-12 08:52:05,968 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30-Secured-Rest-Api/src/main/java
+2025-12-12 08:52:05,969 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/main/resources
+2025-12-12 08:52:05,971 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/main/resources
+2025-12-12 08:52:05,972 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30-Secured-Rest-Api/src/test/java
+2025-12-12 08:52:05,973 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30-Secured-Rest-Api/src/test/resources
+2025-12-12 08:52:06,937 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-12-12 08:52:08,212 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 08:52:08,249 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:52:08,277 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 08:53:13,611 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 08:53:13,640 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:53:13,677 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 08:53:46,472 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 08:53:46,490 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:53:46,514 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 08:53:57,449 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [359])
+2025-12-12 08:53:57,450 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\aopalliance-1.0.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\guice-5.1.0.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpclient-4.5.14.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpcore-4.4.16.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jansi-2.4.1.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jcl-over-slf4j-1.7.36.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-artifact-3.9.7.jar
+2025-12-12 08:53:57,451 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-builder-support-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-compat-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-core-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-embedder-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-builder-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-plugin-api-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-repository-metadata-3.9.7.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-api-1.9.20.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-connector-basic-1.9.20.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-impl-1.9.20.jar
+2025-12-12 08:53:57,452 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-named-locks-1.9.20.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-provider-3.9.7.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-spi-1.9.20.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-file-1.9.20.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-http-1.9.20.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-wagon-1.9.20.jar
+2025-12-12 08:53:57,453 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-util-1.9.20.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-3.9.7.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-builder-3.9.7.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-shared-utils-3.4.2.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2025-12-12 08:53:57,454 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-0.0.7.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-1.2.0.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-cipher-2.0.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-classworlds-2.8.0.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-component-annotations-2.1.0.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-interpolation-1.27.jar
+2025-12-12 08:53:57,455 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-sec-dispatcher-2.0.jar
+2025-12-12 08:53:57,456 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-utils-3.5.1.jar
+2025-12-12 08:53:57,456 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-file-3.5.3.jar
+2025-12-12 08:53:57,456 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-3.5.3.jar
+2025-12-12 08:53:57,456 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-shared-3.5.3.jar
+2025-12-12 08:53:57,456 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-provider-api-3.5.3.jar
+2025-12-12 08:53:57,459 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [29])
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\com.google.guava_33.2.0.jre.jar
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.13 [592])
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\slf4j.api_2.0.13.jar
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [44])
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-12-12 08:53:57,460 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [53])
+2025-12-12 08:53:57,461 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2025-12-12 08:53:57,462 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [76])
+2025-12-12 08:53:57,466 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.apache.commons.cli_1.8.0.jar
+2025-12-12 08:53:57,468 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2025-12-12 08:53:57,470 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-12-12 08:53:57,472 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [82])
+2025-12-12 08:53:57,475 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2025-12-12 08:53:57,476 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-12-12 08:53:57,477 [Worker-14: Launching 01-Maven-App (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: E:\softwares\sts-4.24.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-12-12 08:55:18,841 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:30-Secured-Rest-Api:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\pom.xml.
+2025-12-12 08:55:20,586 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8.pom
+2025-12-12 08:55:20,734 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8.pom
+2025-12-12 08:55:20,819 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7.pom
+2025-12-12 08:55:20,955 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7.pom
+2025-12-12 08:55:21,042 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.pom
+2025-12-12 08:55:21,202 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.pom
+2025-12-12 08:55:21,360 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.pom
+2025-12-12 08:55:21,486 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.pom
+2025-12-12 08:55:22,125 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8.jar
+2025-12-12 08:55:22,296 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8.jar
+2025-12-12 08:55:22,362 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7.jar
+2025-12-12 08:55:22,474 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.jar
+2025-12-12 08:55:22,483 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.jar
+2025-12-12 08:55:22,720 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.jar
+2025-12-12 08:55:22,735 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7.jar
+2025-12-12 08:55:22,799 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.jar
+2025-12-12 08:55:23,918 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:55:23,920 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:55:23,931 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 08:55:24,333 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8-sources.jar
+2025-12-12 08:55:24,344 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.8/spring-boot-starter-security-3.5.8-sources.jar
+2025-12-12 08:55:24,353 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.5.8
+2025-12-12 08:55:24,455 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7-sources.jar
+2025-12-12 08:55:24,773 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.7/spring-security-config-6.5.7-sources.jar
+2025-12-12 08:55:24,781 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:6.5.7
+2025-12-12 08:55:24,965 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7-sources.jar
+2025-12-12 08:55:25,204 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7-sources.jar
+2025-12-12 08:55:25,215 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:6.5.7
+2025-12-12 08:55:25,419 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7-sources.jar
+2025-12-12 08:55:25,639 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7-sources.jar
+2025-12-12 08:55:25,649 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:6.5.7
+2025-12-12 08:55:27,389 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 08:55:27,430 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:55:27,453 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 08:55:29,003 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:30-Secured-Rest-Api:0.0.1-SNAPSHOT @ E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\pom.xml.
+2025-12-12 08:55:30,480 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:55:30,483 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 08:55:30,515 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:06:41,166 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:06:41,215 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:06:41,221 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:07:11,389 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:07:11,443 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:07:11,453 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:07:14,584 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:07:14,595 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:07:14,599 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:13:16,888 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:13:16,897 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:13:16,901 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:13:17,938 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:13:17,946 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:13:17,949 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:13:23,558 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:13:23,579 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:13:23,584 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:13:42,405 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:13:42,440 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:13:42,443 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:14:30,475 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:14:30,505 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:14:30,513 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:14:47,738 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:14:47,781 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:14:47,791 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:14:56,673 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:14:56,684 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:14:56,708 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:17:52,269 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:17:52,282 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:17:52,288 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:17:54,538 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:17:54,550 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:17:54,554 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:19:05,400 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:19:05,453 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:19:05,459 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:23:19,038 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:23:19,071 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:23:19,092 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:24:02,904 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:24:02,924 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:24:02,931 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:24:36,681 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:24:36,688 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:24:36,694 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:24:43,295 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:24:43,304 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:24:43,308 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:29:52,009 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:29:52,024 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:29:52,031 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:36:56,164 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:36:56,178 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:36:56,186 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:36:58,443 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:36:58,461 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:36:58,467 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:39:25,406 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:39:25,417 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:39:25,420 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:48:33,951 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:48:33,959 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:48:33,961 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:48:45,549 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:48:45,556 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:48:45,558 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:48:55,451 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:48:55,460 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:48:55,465 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:49:04,268 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:49:04,280 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:49:04,283 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:49:28,706 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:49:28,712 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:49:28,715 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:49:35,106 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:49:35,114 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:49:35,117 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:49:52,974 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:49:52,983 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:49:52,986 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:49:56,018 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:49:56,025 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:49:56,029 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:50:00,159 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:50:00,163 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:50:00,165 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:50:02,378 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:50:02,388 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:50:02,392 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:50:06,395 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:50:06,403 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:50:06,406 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:50:07,524 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:50:07,528 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:50:07,530 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:50:48,243 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:50:48,302 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:50:48,312 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
+2025-12-12 09:52:00,835 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-12 09:52:00,843 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-12 09:52:00,847 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\classes\75-SBMS\SpringBoot-Microservices-Workspace\30-Secured-Rest-Api\src\test\resources
