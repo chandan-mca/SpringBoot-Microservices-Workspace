@@ -50,6 +50,7 @@ public class StudentRestController {
 
 			if (authentication.isAuthenticated()) {
 				// login success
+				// TODO: Generate JWT Token for user
 				return new ResponseEntity<>("Welcome to Ashok IT - Login success", HttpStatus.OK);
 			}
 		} catch (Exception e) {
